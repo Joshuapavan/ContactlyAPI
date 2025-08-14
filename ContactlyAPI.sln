@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactlyAPI", "ContactlyAPI.csproj", "{0728644C-AEA6-2744-2B0E-123F67A369E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0728644C-AEA6-2744-2B0E-123F67A369E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0728644C-AEA6-2744-2B0E-123F67A369E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0728644C-AEA6-2744-2B0E-123F67A369E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0728644C-AEA6-2744-2B0E-123F67A369E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ADA095A-7D61-4DBD-8020-92F3AE47E72F}
+	EndGlobalSection
+EndGlobal
