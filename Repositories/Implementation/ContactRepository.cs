@@ -9,7 +9,7 @@ namespace ContactlyAPI.Repositories.Implementation;
 
 public class ContactRepository(ContactlyDbContext context, IMapper mapper) : IContactRepository
 {
-    public async Task<Contact> AddContact(AddContactRequestDTO request)
+    public async Task<Contact?> AddContact(AddContactRequestDTO request)
     {
         var domainModelContext = mapper.Map<Contact>(request);
         await context.Contacts.AddAsync(domainModelContext);
