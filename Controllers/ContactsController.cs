@@ -1,12 +1,6 @@
-using System.Threading.Tasks;
-using AutoMapper;
-using ContactlyAPI.Data;
 using ContactlyAPI.Models;
-using ContactlyAPI.Models.Domain;
 using ContactlyAPI.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace ContactlyAPI.Controllers;
 
