@@ -1,4 +1,6 @@
 using ContactlyAPI.Data;
+using ContactlyAPI.Repositories;
+using ContactlyAPI.Repositories.Implementation;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -13,6 +15,9 @@ builder.Services.AddOpenApi();
 // injecting DbContext 
 builder.Services.AddDbContext<ContactlyDbContext>
 (options => options.UseInMemoryDatabase("ContactsDb"));
+
+// Adding Services
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 
 // Adding Automapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
